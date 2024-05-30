@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e4e5f1;
+}
+header {
+  background: url("./assets/light-bg.jpg") no-repeat center center;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 550px;
+  transform: translateY(40%);
+}
+.header-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+form input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+
+  margin-top: 2rem;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #e3e4f1;
+}
+li:last-child {
+  border: none;
+}
+input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+.todo-wrapper {
+  display: flex;
+}
