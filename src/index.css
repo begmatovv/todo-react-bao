@@ -47,6 +47,7 @@ li {
   align-items: center;
   width: 100%;
   border-bottom: 1px solid #e3e4f1;
+  padding: 15px;
 }
 li:last-child {
   border: none;
@@ -58,4 +59,33 @@ input[type="checkbox"] {
 }
 .todo-wrapper {
   display: flex;
+}
+.delete {
+  width: 17px;
+  height: 17px;
+  border: none;
+  color: #e3e4f1;
+  background-color: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+footer {
+  display: flex;
+  background: #ffffff;
+  justify-content: space-between;
+  padding: 16px;
+  color: #5b5e7e;
+}
+.footer-center {
+  font-size: 14px;
+  display: flex;
+  gap: 1.8rem;
+}
+span {
+  cursor: pointer;
+}
+h2 {
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 15px;
 }
